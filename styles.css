@@ -1,0 +1,265 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Start your base/mobile styles here */
+
+html, body {
+  font-size: 16px;
+  font-family: 'Neuton', serif;
+  /* Sets default font-size to 16px, ensuring 1em = 16px; */
+}
+
+.main-text, h1 {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+h1 {
+  padding-bottom: 10px;
+  font-size: 2em;
+}
+
+.caption {
+  color: gray;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+.credit {
+  font-weight: 400;
+}
+
+.hotspot {
+  position: absolute;
+  width: 42px;
+  height: 30px;
+  text-align: center;
+  padding: 10px;
+  color: purple;
+  background: #99ebff;
+  opacity: .6;
+  font-family: 'Neuton', serif;
+  font-size: 18px;
+  font-weight: bold;
+  outline: none;
+  border: 2px solid purple;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.hotspot:hover {
+  background-color: white;
+}
+
+#hotspot_syrup {
+  top: 35%;
+  left: 50%;
+}
+
+#hotspot_soda {
+  top: 50%;
+  left: 20%;
+}
+
+#hotspot_candy {
+  top: 80%;
+  left: 30%;
+}
+
+#hotspot_cup {
+  top: 80%;
+  left: 70%;
+}
+
+.arrow {
+  font-size: 40px;
+  cursor: pointer;
+  position: absolute;
+  color: #800080;
+}
+
+#hotspot_arrowup1 {
+  top: 22%;
+  left: 20%;
+}
+
+#hotspot_arrowup2 {
+  top: 22%;
+  left: 45%;
+}
+
+#hotspot_arrowup3 {
+  top: 22%;
+  left: 70%;
+}
+
+#hotspot_arrowdown1 {
+  top: 68%;
+  left: 20%;
+}
+
+#hotspot_arrowdown2 {
+  top: 68%;
+  left: 45%;
+}
+
+#hotspot_arrowdown3 {
+  top: 68%;
+  left: 70%;
+}
+
+.photo-container {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.info_slides {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-color: black;
+  opacity: .75;
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 2;
+}
+
+/* .info_slides {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background: white;
+  border-color: black;
+  opacity: 0.7;
+  z-index: 2;
+  display: none;
+  top: 50%;
+  left: 20%;
+} */
+
+/* .info_slides {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: white;
+  opacity: 0.7;
+  display: none;
+} */
+
+.info_slides_show {
+  display: block;
+}
+
+.hide_btn {
+  display: none;
+}
+
+.info_popIn {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 3;
+  padding: 70px 15px 30px 15px;
+  font-size: 1.5em;
+  text-align: center;
+  color: purple;
+  height: 100%;
+  /*display: none;*/
+}
+
+.btn_close {
+  position: absolute;
+  font-family: 'Neuton', serif;
+  top: 5%;
+  left: 92%;
+  font-size: 2em;
+  color: black;
+  z-index: 4;
+  font-weight: 500;
+  display: none;
+}
+
+.btn_close_show {
+  display: block;
+  cursor: pointer;
+}
+
+.spot_text {
+  width: 80%;
+  font-family: 'Neuton', serif;
+  margin: 50px;
+  margin-top: 80px;
+  font-size: 18px;
+  color: purple;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#photo2 {
+  border-style: solid;
+  border-width: 2px;
+}
+
+/* Tablet/Desktop overrides */
+
+@media(min-width: 681px) {
+  /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+@media(min-width: 729px) {
+  /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+  .circle:hover {
+    background-color: purple;
+  }
+  .info_popIn {
+    font-size: 5em;
+    padding: 200px 15px 30px 15px;
+    /*display: none;*/
+  }
+  .btn_close {
+    font-size: 4em;
+  }
+  .btn_close:hover {
+    color: blue;
+  }
+}
