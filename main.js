@@ -9,7 +9,7 @@ $(document).ready(function () {
 
 	$('#hotspot_syrup').click(function () {
 		showInfo();
-		$('#popIn').text("Cough syrup containing codeine and promethazine is the basis of lean. This one is over the counter, so it doesn't contain codeine, but contains dextromethorphan, which produces hallucinogenic effects.").addClass('popIn-info');
+		$('#popIn').text("Cough syrup containing codeine and promethazine is the basis of lean. The one shown is an over-the-counter syrup, so it doesn't contain codeine, but contains dextromethorphan, which produces hallucinogenic effects. This is known as 'robotripping.'").addClass('popIn-info');
 		$("#popIn").addClass("spot_text");
 	});
 
@@ -23,13 +23,13 @@ $(document).ready(function () {
 
 	$('#hotspot_candy').click(function () {
 		showInfo();
-		$('#popIn').text("Candy, such as Jolly Ranchers, are added to dilute the taste of the syrup, and to add flavor. The grape candy is what gives the distinctive color that lends it the name 'purple drank.'").addClass('popIn-info');
+		$('#popIn').text("Candy, such as Jolly Ranchers, are added to dilute the taste of the syrup, and to add flavor. The grape candy is what gives the distinctive color that lends it the alternative name 'purple drank.'").addClass('popIn-info');
 		$("#popIn").addClass("spot_text");
 	});
 
 	$('#hotspot_cup').click(function () {
 		showInfo();
-		$('#popIn').text("The styrofoam cup is the iconic container for lean, making it a 'party' drink. Two cups are often used as a sign that it contains lean – so drinking it has come to be known as 'double-cupping.'").addClass('popIn-info');
+		$('#popIn').text("The Styrofoam cup is the iconic container for lean, making it a 'party' drink. Two cups are often used as a sign that it contains lean – so drinking it has come to be known as 'double-cupping.'").addClass('popIn-info');
 		$("#popIn").addClass("spot_text");
 	});
 
@@ -66,7 +66,7 @@ $(document).ready(function () {
 
 	$('#hotspot_arrowup3').click(function () {
 		showInfo2();
-		$('#popIn2').text("In the '90s, a musician known as DJ Screw produced slow records, a genre that became known as 'Chopped and Screwed.' It was a perfect complement to the hot Houston weather, driving in traffic jams, and sipping on lean, a sedative that slows the body down.").addClass('info_popIn');
+		$('#popIn2').text("In the '90s, a musician known as DJ Screw produced slow records, a genre that became known as 'Chopped and Screwed.' It was a perfect complement to the hot Houston weather, driving in traffic jams, and sipping on lean, a depressant that slows the body down.").addClass('info_popIn');
 	});
 
 	$('#hotspot_arrowdown1').click(function () {
@@ -76,12 +76,12 @@ $(document).ready(function () {
 
 	$('#hotspot_arrowdown2').click(function () {
 		showInfo2();
-		$('#popIn2').text("In 2013, Lil' Wayne, one of the most popular rap artists ever, was hospitalized because of seizures. Wayne is known for his raspy voice that is said to have developed from lean consumption.").addClass('info_popIn');
+		$('#popIn2').text("In 2013, Lil' Wayne, one of the all-time most popular rap artists, was hospitalized because of seizures. Wayne is known for his raspy voice that is said to have developed from lean consumption.").addClass('info_popIn');
 	});
 
 	$('#hotspot_arrowdown3').click(function () {
 		showInfo2();
-		$('#popIn2').text("The biggest manufacturer of codeine syrup, Actavis, stopped making it in 2014. Some of its bottles can be sold for up to $3,000 per pint on the black market. Artists such as Migos, Future and even Justin Bieber continued to take the drug.").addClass('info_popIn');
+		$('#popIn2').text("The biggest manufacturer of codeine syrup, Actavis, stopped making it in 2014. Some of its bottles can be sold for up to $3,000 per pint on the black market. Artists such as Migos, Future and even Justin Bieber continued to take the drug, signalling its growth outside the hip-hop world").addClass('info_popIn');
 	});
 
 	/*close info window*/
