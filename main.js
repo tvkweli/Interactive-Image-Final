@@ -54,34 +54,34 @@ $(document).ready(function () {
 
 	$('#hotspot_arrowup1').click(function () {
 		showInfo2();
-		$('#popIn2').text("In the 1950s, blues musicians in Houston started drinking Robitussin mixed with beer. Later on, they'd mix it with wine coolers.").addClass('popIn-info');
+		$('#popIn2').text("In the 1950s, blues musicians in Houston started drinking Robitussin mixed with beer. Later on, they'd mix it with wine coolers.").addClass('info_popIn');
 	});
 
 
 
 	$('#hotspot_arrowup2').click(function () {
 		showInfo2();
-		$('#popIn2').text("In the '80s and '90s, people switched from over-the-counter Robitussin to codeine and promethazine syrup. It became associated with hip hop musicians, who grew up in the same Houston neighborhoods as the bluesmen.").addClass('popIn-info');
+		$('#popIn2').text("In the '80s and '90s, people switched from over-the-counter Robitussin to codeine and promethazine syrup. It became associated with hip hop musicians, who grew up in the same Houston neighborhoods as the bluesmen.").addClass('info_popIn');
 	});
 
 	$('#hotspot_arrowup3').click(function () {
 		showInfo2();
-		$('#popIn2').text("In the '90s, a musician known as DJ Screw produced slow records, a genre that became known as 'Chopped and Screwed.' It was a perfect complement to the hot Houston weather, driving in traffic jams, and sipping on lean, a sedative that slows the body down.").addClass('popIn-info');
+		$('#popIn2').text("In the '90s, a musician known as DJ Screw produced slow records, a genre that became known as 'Chopped and Screwed.' It was a perfect complement to the hot Houston weather, driving in traffic jams, and sipping on lean, a sedative that slows the body down.").addClass('info_popIn');
 	});
 
 	$('#hotspot_arrowdown1').click(function () {
 		showInfo2();
-		$('#popIn2').text("Lean spread to the rest of the South, and infused hip hop culture. In 2000, DJ Screw died at 29, likely from the drug. By this time, lean had been mentioned in rap records from Three6Mafia, Jay-Z and others.").addClass('popIn-info');
+		$('#popIn2').text("Lean spread to the rest of the South, and infused hip hop culture. In 2000, DJ Screw died at 29, likely from the drug. By this time, lean had been mentioned in rap records from Three6Mafia, Jay-Z and others.").addClass('info_popIn');
 	});
 
 	$('#hotspot_arrowdown2').click(function () {
 		showInfo2();
-		$('#popIn2').text("In 2013, Lil' Wayne, one of the most popular rap artists ever, was hospitalized because of seizures. Wayne is known for his raspy voice that is said to have developed from lean consumption.").addClass('popIn-info');
+		$('#popIn2').text("In 2013, Lil' Wayne, one of the most popular rap artists ever, was hospitalized because of seizures. Wayne is known for his raspy voice that is said to have developed from lean consumption.").addClass('info_popIn');
 	});
 
 	$('#hotspot_arrowdown3').click(function () {
 		showInfo2();
-		$('#popIn2').text("The biggest manufacturer of codeine syrup, Actavis, stopped making it in 2014. Some of its bottles can be sold for up to $3,000 per pint on the black market. Artists such as Migos, Future and even Justin Bieber continued to take the drug.").addClass('popIn-info');
+		$('#popIn2').text("The biggest manufacturer of codeine syrup, Actavis, stopped making it in 2014. Some of its bottles can be sold for up to $3,000 per pint on the black market. Artists such as Migos, Future and even Justin Bieber continued to take the drug.").addClass('info_popIn');
 	});
 
 	/*close info window*/
