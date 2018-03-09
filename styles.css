@@ -42,16 +42,19 @@ html, body {
   /* Sets default font-size to 16px, ensuring 1em = 16px; */
 }
 
-.main-text, h1 {
+.main-text {
   margin: 10px;
   padding: 10px;
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 1.4em;
+  line-height: 1.3em;
 }
 
 h1 {
   padding-bottom: 10px;
   font-size: 2em;
+  margin: 10px;
+  padding: 10px;
+  line-height: 1.5em;
 }
 
 .byline {
@@ -395,6 +398,7 @@ img {
     padding: 10px;
     font-size: 1.2em;
     line-height: 1.3em;
+    max-width: 85%;
   }
   .photo-container {
     width: 80%;
