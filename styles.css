@@ -273,7 +273,7 @@ img {
   /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
   #date1 {
     top: 10%;
-    left: 50%;
+    left: 36%;
   }
   #date2 {
     top: 84%;
@@ -319,8 +319,8 @@ img {
     width: 80%;
     font-family: 'Neuton', serif;
     margin: 50px;
-    margin-top: 180px;
-    font-size: 36px;
+    margin-top: 60px;
+    font-size: 42px;
     color: purple;
   }
   .info_popIn {
@@ -329,15 +329,24 @@ img {
     left: 0px;
     z-index: 3;
     padding: 70px 15px 30px 15px;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     color: purple;
     height: 100%;
     /*display: none;*/
   }
+  .main-text {
+    margin: 10px;
+    padding: 10px;
+    line-height: 1.3em;
+  }
+  h1 {
+    font-size: 2em;
+    padding-bottom: none;
+  }
 }
 
-@media(min-width: 729px) {
+@media(min-width: 800px) {
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
   .info_popIn {
     font-size: 4em;
@@ -390,5 +399,9 @@ img {
   .photo-container {
     width: 80%;
     margin-left: 30px;
+  }
+  h1 {
+    font-size: 2em;
+    padding-bottom: none;
   }
 }
