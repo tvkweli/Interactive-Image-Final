@@ -66,7 +66,7 @@ h1 {
 .caption {
   color: gray;
   font-size: 1em;
-  margin-left: 10px;
+  margin-left: 30px;
 }
 
 .credit {
@@ -380,5 +380,15 @@ img {
     margin-top: 150px;
     font-size: 45px;
     color: purple;
+  }
+  .main-text {
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.2em;
+    line-height: 1.3em;
+  }
+  .photo-container {
+    width: 80%;
+    margin-left: 30px;
   }
 }
