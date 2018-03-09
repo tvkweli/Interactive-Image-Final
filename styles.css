@@ -1,3 +1,4 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -261,89 +262,74 @@ img {
 
 @media(min-width: 681px) {
   /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-}
-
-#date1 {
-  top: 14%;
-  left: 38%;
-}
-
-#date2 {
-  top: 84%;
-  left: 42%;
-}
-
-.year {
-  font-size: 42px;
-  position: absolute;
-  color: #800080;
-  font-style: bold;
-}
-
-#hotspot_arrowup1 {
-  top: 28%;
-  left: 20%;
-}
-
-#hotspot_arrowup2 {
-  top: 28%;
-  left: 45%;
-}
-
-#hotspot_arrowup3 {
-  top: 28%;
-  left: 70%;
-}
-
-#hotspot_arrowdown1 {
-  top: 70%;
-  left: 20%;
-}
-
-#hotspot_arrowdown2 {
-  top: 70%;
-  left: 45%;
-}
-
-#hotspot_arrowdown3 {
-  top: 70%;
-  left: 70%;
-}
-
-.arrow {
-  font-size: 50px;
-  cursor: pointer;
-  position: absolute;
-  color: #800080;
-}
-
-.spot_text {
-  width: 80%;
-  font-family: 'Neuton', serif;
-  margin: 50px;
-  margin-top: 180px;
-  font-size: 36px;
-  color: purple;
-}
-
-.info_popIn {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: 3;
-  padding: 70px 15px 30px 15px;
-  font-size: 50px;
-  text-align: center;
-  color: purple;
-  height: 100%;
-  /*display: none;*/
+  #date1 {
+    top: 10%;
+    left: 50%;
+  }
+  #date2 {
+    top: 84%;
+    left: 42%;
+  }
+  .year {
+    font-size: 42px;
+    position: absolute;
+    color: #800080;
+    font-style: bold;
+  }
+  #hotspot_arrowup1 {
+    top: 24%;
+    left: 20%;
+  }
+  #hotspot_arrowup2 {
+    top: 24%;
+    left: 45%;
+  }
+  #hotspot_arrowup3 {
+    top: 24%;
+    left: 70%;
+  }
+  #hotspot_arrowdown1 {
+    top: 70%;
+    left: 20%;
+  }
+  #hotspot_arrowdown2 {
+    top: 70%;
+    left: 45%;
+  }
+  #hotspot_arrowdown3 {
+    top: 70%;
+    left: 70%;
+  }
+  .arrow {
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    color: #800080;
+  }
+  .spot_text {
+    width: 80%;
+    font-family: 'Neuton', serif;
+    margin: 50px;
+    margin-top: 180px;
+    font-size: 36px;
+    color: purple;
+  }
+  .info_popIn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    padding: 70px 15px 30px 15px;
+    font-size: 30px;
+    text-align: center;
+    color: purple;
+    height: 100%;
+    /*display: none;*/
+  }
 }
 
 @media(min-width: 729px) {
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
-  .arrow:hover {
-    font-style: normal;
-  }
   .info_popIn {
     font-size: 4em;
     padding: 200px 15px 30px 15px;
@@ -382,8 +368,8 @@ img {
     width: 80%;
     font-family: 'Neuton', serif;
     margin: 50px;
-    margin-top: 250px;
-    font-size: 60px;
+    margin-top: 150px;
+    font-size: 45px;
     color: purple;
   }
 }
