@@ -81,7 +81,7 @@ $(document).ready(function () {
 
 	$('#hotspot_arrowdown3').click(function () {
 		showInfo2();
-		$('#popIn2').text("The biggest manufacturer of codeine syrup, Actavis, stopped making it in 2014. Some of its bottles can be sold for up to $3,000 per pint on the black market. Artists such as Migos, Future and even Justin Bieber continued to take the drug, signalling its growth outside the hip-hop world").addClass('info_popIn');
+		$('#popIn2').text("The biggest manufacturer of codeine syrup, Actavis, stopped making it in 2014. Some of its bottles can be sold for up to $3,000 per pint on the black market. Artists such as Migos, Future and even Justin Bieber continued to take the drug, signalling its growth outside the hip-hop world.").addClass('info_popIn');
 	});
 
 	/*close info window*/
