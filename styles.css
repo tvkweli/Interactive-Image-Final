@@ -341,11 +341,11 @@ img {
 
 @media(min-width: 729px) {
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
-  .circle:hover {
-    background-color: purple;
+  .arrow:hover {
+    font-style: normal;
   }
   .info_popIn {
-    font-size: 5em;
+    font-size: 4em;
     padding: 200px 15px 30px 15px;
     /*display: none;*/
   }
@@ -354,5 +354,37 @@ img {
   }
   .btn_close:hover {
     color: blue;
+  }
+  #date1 {
+    top: 18%;
+    left: 39%;
+  }
+  #date2 {
+    top: 81%;
+    left: 43%;
+  }
+  .year {
+    font-size: 50px;
+    position: absolute;
+    color: #800080;
+    font-style: bold;
+  }
+  .arrow {
+    font-size: 72px;
+    cursor: pointer;
+    position: absolute;
+    color: #800080;
+  }
+  .btn_close {
+    top: 12%;
+    left: 92%;
+  }
+  .spot_text {
+    width: 80%;
+    font-family: 'Neuton', serif;
+    margin: 50px;
+    margin-top: 250px;
+    font-size: 60px;
+    color: purple;
   }
 }
