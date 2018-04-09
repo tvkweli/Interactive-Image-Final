@@ -76,7 +76,7 @@ $(document).ready(function () {
 
 	$('#hotspot_arrowdown2').click(function () {
 		showInfo2();
-		$('#popIn2').text("In 2013, Lil Wayne, one of the all-time most popular rap artists, was hospitalized because of seizures. Wayne is known for his raspy voice that is said to have developed from lean consumption.").addClass('info_popIn');
+		$('#popIn2').text("In 2013, popular rap artist Lil Wayne was hospitalized because of seizures. Wayne is known for his raspy voice that is said to have developed from lean consumption.").addClass('info_popIn');
 	});
 
 	$('#hotspot_arrowdown3').click(function () {

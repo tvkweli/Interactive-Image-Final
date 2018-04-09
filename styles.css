@@ -38,7 +38,8 @@ table {
 
 html, body {
   font-size: 16px;
-  font-family: 'Neuton', serif;
+  /* font-family: 'Neuton', serif; */
+  font-family: 'Tajawal', sans-serif;
   /* Sets default font-size to 16px, ensuring 1em = 16px; */
 }
 
@@ -419,5 +420,8 @@ img {
   h1 {
     font-size: 2em;
     padding-bottom: none;
+  }
+  .caption {
+    max-width: 80%;
   }
 }
