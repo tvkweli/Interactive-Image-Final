@@ -424,4 +424,7 @@ img {
   .caption {
     max-width: 80%;
   }
+  .main-text {
+    max-width: 81%;
+  }
 }
